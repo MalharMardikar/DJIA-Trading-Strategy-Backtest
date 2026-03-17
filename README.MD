@@ -81,7 +81,7 @@ data.columns.name = None
 data = data.rename(columns={'level_1': 'Ticker'})
 data.to_csv('data/data_djia.csv', index=False)
 
-##Setup
+## Setup
 
 1. Clone the repository
 2. Download both data files following the instructions above and place them in the data/ folder
