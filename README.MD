@@ -80,6 +80,9 @@ data = data.stack(level=1).reset_index()
 data.columns.name = None
 data = data.rename(columns={'level_1': 'Ticker'})
 data.to_csv('data/data_djia.csv', index=False)
+```
+
+---
 
 ## Setup
 
@@ -92,3 +95,4 @@ data.to_csv('data/data_djia.csv', index=False)
 Author
 Malhar Mardikar
 https://www.linkedin.com/in/malhar-mardikar-768892287/
+
