@@ -92,7 +92,7 @@ data.to_csv('data/data_djia.csv', index=False)
    - pip install -r requirements.txt
 4. Run djia_trading_strategy.ipynb in Jupyter Notebook
 
-Author
+Author:
 Malhar Mardikar
 https://www.linkedin.com/in/malhar-mardikar-768892287/
 
